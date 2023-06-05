@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,300;0,400;0,700;1,700&display=swap');
+.fn{
+   font-family: 'Poppins', sans-serif;
+   font-family: 'Roboto', sans-serif;
+}
+.bg{
+    background-image: linear-gradient(to right,rgb(161, 213, 220) ,rgb(219, 233, 234));
+    padding:8%;
+}
+.bgc{
+  background-image: linear-gradient(to right,rgb(161, 213, 220) ,rgb(219, 233, 234));
+  padding:0% 5% 8% 8%;
+}
+nav ul li a:hover{
+   font-size: large;
+   color: rgb(233, 10, 66) !important;;
+}
+.mrg_bt{
+    margin-bottom: 3%;
+}
+.mrg_lf{
+    margin-left: 10%;
+}
+.pd{
+    padding-top: 10%;
+}
+.Q_hr:hover {
+    background-color: rgba(24, 165, 158, 0.341);
+  }
+.carousel_h{
+             margin-left: 25%;
+             width:50%;
+  }
+.clr{
+    color: #959ead;
+}
+.sty{
+        width:100%;
+        position: sticky;
+        top:0;
+        z-index:10;
+    }
+  .ab{
+    padding-top: 5%;
+  }
+  .sk{
+    padding-top:4%;
+  }
+  .wb:hover{border:30px solid lightblue;}
+ 
+  @media screen and (max-width:340px) {
+    .bg{
+        background-image: linear-gradient(to right,rgb(118, 168, 226), rgb(249, 155, 155) );
+    }
+  } 
+  @media screen and (min-width:340px) {
+    .wb{
+      box-shadow: 5px 10px 5px rgb(216, 216, 216);
+    }
+  } 
+  @media screen and (min-width:100px) and (max-width:340px) {
+  .clr{
+    color: #0ddd9f;
+  }
+}
+@media screen  and (orientation :landscape){
+  body{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+}
